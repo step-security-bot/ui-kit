@@ -14,8 +14,16 @@ on:
       - '!utils/atomic-storybook/package-lock.json'
       - '!package-lock.json'
 
+permissions:
+  contents: read
+
 jobs:
   lockfile-outside-of-root:
     runs-on: ubuntu-latest
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit
+
       - run: exit 1

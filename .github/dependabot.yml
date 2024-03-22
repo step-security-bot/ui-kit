@@ -1,0 +1,166 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/atomic-angular
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/atomic-angular/projects/atomic-angular
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/atomic-hosted-page
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/atomic-react
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/atomic-react/recommendation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/atomic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/auth
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/bueno
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless-react
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless/case-assist
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless/commerce
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless/insight
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless/product-listing
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless/product-recommendation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless/recommendation
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/headless/ssr
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/quantic
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/angular
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/atomic-next
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/atomic-react
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/headless-react
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/headless-ssr/app-router
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/headless-ssr
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/headless-ssr/pages-router
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/iife
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/stencil
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/samples/vuejs
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /utils/atomic-storybook
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /utils/nx-plugin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /utils/release
+    schedule:
+      interval: daily
